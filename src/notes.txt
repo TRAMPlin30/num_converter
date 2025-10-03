@@ -1,0 +1,16 @@
+
+пакет для роботы с клавой
+npm install readline-sync
+
+npm install --save-dev @types/readline-sync @types/readline-sync 
+— это как “инструкция для TypeScript”, где описано, какие функции есть в readline-sync, что они принимают и что возвращают.
+
+
+run TS files
+npm install --save-dev ts-node typescript
+npx ts-node index.ts
+npx tsc --init  -create tsconfig.json file
+ input following code:
+ },
+  "include": ["src"]
+}
