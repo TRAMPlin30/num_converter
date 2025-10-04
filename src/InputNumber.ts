@@ -1,12 +1,18 @@
-import * as readline from "readline-sync";
+import readline from "readline-sync";
 
 export class InputNumber {
 
-    numberList (number: string) {
-
-        const userInput = readline.question(number);
-        return userInput;
-
+    
+    static inputNumber () {
+    
+        while (true) {
+            var input = readline.question("Enter number: ");
+            var num = parseInt(input)          // string to number conversion
+            if (!isNaN(num)) {                   //isNaN - check if it`s Not-a-Number;  !isNaN - check if it`s Number(true if its number)   
+                console.log("The number you have entered is: " + num.toString())
+                return num; 
+            } 
+            console.log("Not a number! Please put the number!")
+        }
     }
-
 }
