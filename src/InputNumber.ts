@@ -3,7 +3,7 @@ import readline from "readline-sync";
 export class InputNumber {
 
     
-    static inputNumber () {
+    static inputNumber (): number {
     
         while (true) {
             var input = readline.question("Enter number: ");
