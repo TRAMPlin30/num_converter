@@ -19,6 +19,7 @@
   "description": "",
   "devDependencies": {
     "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {

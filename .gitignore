@@ -1,0 +1,12 @@
+
+# Playwright
+tests/lessons
+tests/homeWork/conduitSite_tests/auth/auth-data.json
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+
